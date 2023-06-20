@@ -15,7 +15,7 @@ error_reporting(E_ALL);
 // see https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 // header("Access-Control-Allow-Origin: *");
 
-$config['domains'] = array('site.example');
+$config['domains'] = array('CHANGEMEFQDN');
 
 // Change IMAP settings (check SSL flags on http://php.net/manual/en/function.imap-open.php)
 //$config['imap']['url'] = '{mail:993/imap/ssl/novalidate-cert}INBOX';
@@ -24,7 +24,7 @@ $config['imap']['username'] = "vmail";
 $config['imap']['password'] = "qfigfPu8MFz";
 
 // email domain, usually different from imap hostname:
-$config['mailHostname'] = "site.example";
+$config['mailHostname'] = "CHANGEMEFQDN";
 
 // When to delete old messages?
 $config['delete_messages_older_than'] = '14 days ago';
