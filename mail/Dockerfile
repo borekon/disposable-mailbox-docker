@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:bullseye
 
 ARG fqdn
 SHELL ["/bin/bash", "-c"]
