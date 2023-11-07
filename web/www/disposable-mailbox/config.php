@@ -21,7 +21,7 @@ $config['domains'] = array('CHANGEMEFQDN');
 //$config['imap']['url'] = '{mail:993/imap/ssl/novalidate-cert}INBOX';
 $config['imap']['url'] = '{mail:143/notls}INBOX';
 $config['imap']['username'] = "vmail";
-$config['imap']['password'] = "qfigfPu8MFz";
+$config['imap']['password'] = "<password>";
 
 // email domain, usually different from imap hostname:
 $config['mailHostname'] = "CHANGEMEFQDN";
