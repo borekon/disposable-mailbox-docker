@@ -1,10 +1,10 @@
 <?php
 
 // set your time zone:
-date_default_timezone_set('Europe/Paris');
+date_default_timezone_set('Europe/Madrid');
 
 // set locale (see supported locales: https://github.com/fightbulc/moment.php#switch-locale)
-$config['locale'] = 'fr_FR';
+$config['locale'] = 'es_ES';
 
 // enable while testing:
 error_reporting(E_ALL);
